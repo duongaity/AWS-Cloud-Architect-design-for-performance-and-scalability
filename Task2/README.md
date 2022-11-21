@@ -17,6 +17,6 @@ Solution: We will choose the lower performance for EC2 Instance (r6g.4xlarge > m
 
 ### Your budget has been increased to $20,000
 
-Total Monthly: 16,992.50 USD
+Total Monthly: 18,527.42 USD
 
-Solution: We will choose the high performance for EC2 Instance (r6g.4xlarge > c5.12xlarge), and Amazon RDS for MySQL (m4.4xlarge > m5.4xlarge), and increase S3 Storage (2 TB > 5 TB)
+Solution: We will choose the high performance for EC2 Instance (r6g.4xlarge > c5.12xlarge), and Amazon RDS for MySQL (m4.4xlarge > db.m5.4xlarge), and increase S3 Storage (2 TB > 10 TB).

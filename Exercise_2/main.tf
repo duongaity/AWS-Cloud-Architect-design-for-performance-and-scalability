@@ -6,6 +6,9 @@ resource "aws_instance" "Udacity_T2" {
   ami = "ami-0ff8a91507f77f867"
   instance_type = "t2.micro"
   count = "4"
+  tags = {
+    Name = "Udacity T2"
+  }
 }
 
 resource "aws_iam_role" "iam_for_lambda" {
